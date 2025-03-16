@@ -1,0 +1,44 @@
+body { 
+     font-family: arial, sans-serif; 
+   } 
+   .container { 
+     display: flex; 
+     justify-content: center; 
+   } 
+   .container img { 
+     margin-top: 30px; 
+     border-radius: 50%; 
+     overflow: hidden; 
+     width: 150px; 
+     height: 150px; 
+     border: 2px solid white; 
+   } 
+   table { 
+     width: 100%; 
+     table-layout: fixed; 
+   } 
+   th{
+     background-color: #ddb6b9;
+     width: 33%;
+   } 
+   td { 
+     padding: 10px; /* Menambahkan padding sebesar 10px */ 
+     text-align: left; 
+   } 
+   .kolom-judul {
+     width: 25%;
+     background-color: #ddb6b9;
+   }
+   
+   .kolom-data {
+     width: 75%;
+     background-color: #e6d2d3;
+   }
+   h2 { 
+     font-size: 130%; 
+     color: rgba(221, 182, 185, 255); 
+   } 
+   p {
+     font-size: 130%;
+     color: #ddb6b9;
+   }
